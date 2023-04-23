@@ -19,11 +19,6 @@ ul {
     padding: 0;
 }
 
-img {
-    height: 200px;
-    width: 500px;
-}
-
 .top {
     background-color: #1F2937;
 }
@@ -32,7 +27,7 @@ img {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px 256px 64px 256px;
+    padding: 16px 256px 32px 256px;
 }
 
 .header {
@@ -74,4 +69,39 @@ img {
     color: #F9FAF8;
     border: none;
     border-radius: 4px;
+}
+
+.mountains {
+    max-height: 250px;
+    width: auto;
+    border-radius: 5px;
+}
+
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    border: 2px solid #3882F6;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.box {
+    display: flex;
+    max-width: 100px;
+    flex-direction: column;
+    text-align: center;
 }
