@@ -97,6 +97,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 64px;
+    padding-bottom: 32px;
 }
 
 .box {
@@ -104,4 +105,27 @@ ul {
     max-width: 100px;
     flex-direction: column;
     text-align: center;
+    color: #1F2937;
+}
+
+.mid-two {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 100;
+    opacity: 0.6;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 16px 312px 0 312px;
+}
+
+.thor {
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 312px 32px 312px;
 }
