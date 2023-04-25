@@ -78,6 +78,11 @@ ul {
     border-radius: 5px;
 }
 
+.mid-one {
+    display: flex;
+    flex-direction: column;
+}
+
 .thumbnail {
     width: 100px;
     height: 100px;
@@ -111,6 +116,8 @@ ul {
 
 .mid-two {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
@@ -133,8 +140,11 @@ ul {
 
 .mid-three {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin: 32px 256px 32px 256px;
+    align-items: center;
+    margin: 56px 256px 32px 256px;
+    flex-shrink: 0;
 }
 
 .background {
@@ -170,8 +180,9 @@ ul {
 .footer {
     display: flex;
     justify-content: center;
-}
-
-.copyright {
-    
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    margin-top: auto;
+    padding: 32px;
 }
