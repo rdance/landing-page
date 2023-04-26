@@ -143,7 +143,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 56px 256px 32px 256px;
+    margin: 32px 256px 32px 256px;
     flex-shrink: 0;
 }
 
@@ -179,10 +179,10 @@ ul {
 
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
-    margin-top: auto;
     padding: 32px;
 }
